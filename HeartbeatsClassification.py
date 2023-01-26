@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
 
-"""
 # importing libs
 import numpy as np 
 import pandas as pd 
@@ -18,7 +16,9 @@ from sklearn.neighbors import KNeighborsClassifier
 from xgboost import XGBClassifier
 
 
-
+"""
+Data is provided by https://www.kaggle.com/datasets/shayanfazeli/heartbeat
+"""
 
 # load train and test data
 train_data = pd.read_csv("data/mitbih_train.csv", header=None )
